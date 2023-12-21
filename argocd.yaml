@@ -8,7 +8,7 @@ spec:
     namespace: default
   source:
     repoURL: 'https://github.com/krishpandey1/argo-app1.git'
-    path: app
+    path: client1
     targetRevision: HEAD
   project: default
   syncPolicy:

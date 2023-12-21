@@ -6,6 +6,4 @@ bases:
 
 patchesStrategicMerge:
   - deployment-patch.yaml
-  - namespace.yaml
-
   

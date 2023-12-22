@@ -11,6 +11,6 @@ spec:
     server: {{ .base.environment.dev.Values.spec.destination.server }}
   project: default
   source:
-    path: helm-guestbook
+    path: environment/dev
     repoURL: {{ .base.environment.dev.Values.spec.source.repoURL }}
     targetRevision: {{ .base.environment.dev.Values.spec.source.targetRevision }}

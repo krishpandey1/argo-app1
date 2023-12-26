@@ -3,10 +3,6 @@ kind: Kustomization
 
 namespace: dev123
 
-images:
-- name: dockerconnectme/nginx
-  newtag: v1.0.2
-
 bases:
   - ../../base
 

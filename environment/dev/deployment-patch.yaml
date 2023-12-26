@@ -2,13 +2,5 @@ apiVersion: apps/v1
 kind: Deployment
 metadata:
   name: demo-app
-#spec:
-#  replicas: 1
-
 spec:
   replicas: 1
-  containers:
-    #- name: demo-app
-    #   image: dockerconnectme/nginx:v1.0.1
-      ports:
-        - containerPort: 8080

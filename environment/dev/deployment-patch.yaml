@@ -8,7 +8,7 @@ metadata:
 spec:
   replicas: 1
   containers:
-    - name: demo-app
-       image: dockerconnectme/nginx:v1.0.1
+    #- name: demo-app
+    #   image: dockerconnectme/nginx:v1.0.1
       ports:
         - containerPort: 8080

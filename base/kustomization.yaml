@@ -3,9 +3,9 @@ kind: Kustomization
 
 namespace: anything-it-will-be-replace
 
-images:
-- name: dockerconnectme/nginx
-  newtag: v1.0.1
+#images:
+#- name: dockerconnectme/nginx
+#  newtag: v1.0.1
 
 resources:
   - deployment.yaml

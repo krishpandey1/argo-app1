@@ -14,9 +14,9 @@ spec:
     metadata:
       labels:
         app: demo-app
-    spec:
-      containers:
-        - name: demo-app
+#    spec:
+#      containers:
+#        - name: demo-app
 #          image: dockerconnectme/nginx:v1.0.1
-          ports:
-            - containerPort: 8080
+#          ports:
+#            - containerPort: 8080

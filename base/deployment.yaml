@@ -17,6 +17,6 @@ spec:
     spec:
       containers:
         - name: demo-app
-          image: dockerconnectme/nginx:v1.0.1
+          image: change
           ports:
             - containerPort: 8080

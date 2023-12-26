@@ -16,7 +16,7 @@ spec:
         app: demo-app
     spec:
       containers:
-        - name: demo-app
+        - name: change
           image: change
           ports:
             - containerPort: 8080

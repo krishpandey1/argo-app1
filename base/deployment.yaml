@@ -5,18 +5,18 @@ metadata:
 #  namespace: dev
   labels:
     app: demo-app
-spec:
-  replicas: 1
-  selector:
-    matchLabels:
-      app: demo-app
-  template:
-    metadata:
-      labels:
-        app: demo-app
-    spec:
-      containers:
+#spec:
+#  replicas: 1
+#  selector:
+#    matchLabels:
+#      app: demo-app
+#  template:
+#    metadata:
+#      labels:
+#        app: demo-app
+#    spec:
+#      containers:
 #        - name: demo-app-1
-#          image: test-change
-          ports:
-            - containerPort: 8080
+#          image: nginx:1.24.0-perl
+#          ports:
+#            - containerPort: 8080

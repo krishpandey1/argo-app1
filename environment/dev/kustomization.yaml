@@ -8,6 +8,9 @@ images:
    newName: dockerconnectme/nginx
    newTag: v1.0.1
 
+resources:
+- deployment-patch.yaml
+
 bases:
   - ../../base
 

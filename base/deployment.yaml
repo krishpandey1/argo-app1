@@ -17,6 +17,6 @@ spec:
     spec:
       containers:
         - name: demo-app-1
-          image: nginx:1.24.0-perl
+          image: test-change
           ports:
             - containerPort: 8080

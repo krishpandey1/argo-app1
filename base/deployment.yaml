@@ -17,6 +17,6 @@ spec:
     spec:
       containers:
         - name: demo-app-1
-          image: us-central1-docker.pkg.dev/ia-securearmor/impactsmart/core-backend-dev:latest
+          image: nginx:1.24.0-perl
           ports:
             - containerPort: 8080

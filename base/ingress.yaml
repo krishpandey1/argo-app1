@@ -5,7 +5,7 @@ metadata:
 spec:
   ingressClassName: gce
   rules:
-  - host: demo-app.iaproducts.ai
+  - host: demo-app.example.ai
     http:
       paths:
       - path: /

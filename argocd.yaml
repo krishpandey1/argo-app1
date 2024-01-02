@@ -15,7 +15,7 @@ spec:
     targetRevision: main
     path: environment/dev
   destination:
-    server: https://34.172.149.148
+    server: https://kubernetes.default.svc
   syncPolicy:
     automated:
       prune: true

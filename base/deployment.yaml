@@ -1,7 +1,22 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: demo-app-deployement
+  name: demo-app
 #  namespace: dev
   labels:
     app: demo-app
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: demo-app
+  template:
+    metadata:
+      labels:
+        app: demo-app
+    spec:
+      containers:
+        - name: demo-app-1
+          image: us-central1-docker.pkg.dev/ia-securearmor/allocatesmart-v2/allocate-generic-pubsub-backend-dev:latest
+          ports:
+            - containerPort: 8080
